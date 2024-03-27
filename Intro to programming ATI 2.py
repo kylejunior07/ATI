@@ -1,3 +1,4 @@
+#import tkinter as tk
 import tkinter as tk
 from tkinter import ttk
 import requests
@@ -14,8 +15,11 @@ def convert_currency():
         rate = rates.get(to_currency.get(), 0)
         try:
             amount = float(amount_entry.get())
-            converted_amount = rate * amount
-            result.set(f"{converted_amount:.2f}")
+            if amount > 0:  # Check if the amount is greater than 0
+                converted_amount = rate * amount
+                result.set(f"{converted_amount:.2f}")
+            else:
+                result.set("Invalid input. Amount must be greater than 0.")
         except ValueError:
             result.set("Invalid input.")
     else:
@@ -68,3 +72,4 @@ ttk.Label(root, text="Result:", font=('Arial', 12)).grid(column=0, row=4, padx=1
 
 # Start the GUI event loop
 root.mainloop()
+
