@@ -24,7 +24,7 @@ def convert_currency():
 # Set up the window
 root = tk.Tk()
 root.title("Currency Converter")
-root.geometry("400x200")  # Set initial size of the window
+root.geometry("400x400")  # Set initial size of the window
 
 # Style configuration
 style = ttk.Style()
