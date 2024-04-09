@@ -47,7 +47,7 @@ amount_entry.grid(column=1, row=0, sticky="ew", padx=10, pady=5)
 # Dropdown for FROM currency
 from_currency.set("USD") # Default value
 from_currency_dropdown = ttk.Combobox(root, textvariable=from_currency, state="readonly", font=('Arial', 12))
-from_currency_dropdown['values'] = ("USD", "EUR", "GBP", "JPY", "CAD", "INR", "NGN", "AUD", "CHF", "CNY", "SEK", "NZD", "MXN", "SGD", "HKD", "NOK", "KRW", "TRY", "RUB", "BRL", "ZAR", "AED", "SAR", "THB")
+from_currency_dropdown['values'] = ("USD", "EUR", "GBP", "JPY", "CAD", "INR", "NGN", "AUD", "CHF", "CNY", "SEK", "NZD", "MXN", "SGD", "HKD", "NOK", "KRW", "TRY", "RUB", "BRL", "ZAR", "AED", "SAR", "THB", "MYR")
 from_currency_dropdown.grid(column=1, row=1, sticky="ew", padx=10, pady=5)
 
 # Dropdown for TO currency
