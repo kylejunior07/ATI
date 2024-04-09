@@ -53,7 +53,7 @@ from_currency_dropdown.grid(column=1, row=1, sticky="ew", padx=10, pady=5)
 # Dropdown for TO currency
 to_currency.set("EUR") # Default value
 to_currency_dropdown = ttk.Combobox(root, textvariable=to_currency, state="readonly", font=('Arial', 12))
-to_currency_dropdown['values'] = ("USD", "EUR", "GBP", "JPY", "CAD", "INR", "NGN", "AUD", "CHF", "CNY", "SEK", "NZD", "MXN", "SGD", "HKD", "NOK)
+to_currency_dropdown['values'] = ("USD", "EUR", "GBP", "JPY", "CAD", "INR", "NGN", "AUD", "CHF", "CNY", "SEK", "NZD", "MXN", "SGD", "HKD", "NOK")
 to_currency_dropdown.grid(column=1, row=2, sticky="ew", padx=10, pady=5)
 
 # Convert button
