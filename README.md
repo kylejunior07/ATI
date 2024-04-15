@@ -1,3 +1,10 @@
+Name - Osmond Ezekwe
+Kaplan ID - P428387
+Introduction to Programming
+
+
+
+
 Overview:
 This program is a simple currency converter built using Python and the Tkinter library for the graphical user interface (GUI). It allows users to convert currencies from one type to another based on real-time exchange rates fetched from an API.
 
