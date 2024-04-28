@@ -64,7 +64,7 @@ Run the Python script currency_converter.py.
 Enter the amount you want to convert in the "Amount" field.
 Select the currency you want to convert from in the "From" dropdown menu.
 Select the currency you want to convert to in the "To" dropdown menu.
-Click the "Convert" button.
+Click the "Convert" or "shuffle" button.
 The converted amount will be displayed in the "Result" field.
 Future Enhancements:
 Here are some potential enhancements that could be made to the Currency Converter application:
