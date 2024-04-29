@@ -14,40 +14,32 @@ The Currency Converter application requires the following dependencies:
 
 Python 3.x: The codebase is written in Python 3. Ensure you have Python installed on your system. If not, you can download and install it from the official Python website: https://www.python.org/downloads/
 Tkinter: Tkinter is Python's de-facto standard GUI (Graphical User Interface) package. It comes pre-installed with Python, so no additional installation is necessary.
-Requests: This library is used to make HTTP requests to the exchangerate-api.com API. Install it using pip:
 
+Requests: This library is used to make HTTP requests to the https://www.exchangerate-api.com/ API. 
+
+Install it using pip:
 pip install requests
 
-
 Installation:
-
 To install and run the Currency Converter application, follow these steps:
-
 Clone the repository to your local machine:
 
-git clone [repository_url]
-
+git clone [repository URL]
 
 Navigate to the directory containing the cloned repository:
-
 cd currency-converter
 
-
 Run the Python script currency_converter.py:
-
 python currency_converter.py
-
-
 API:
 The program utilizes the ExchangeRate-API to fetch real-time currency exchange rates. It makes use of the free tier of this API. The API provides a simple endpoint to get exchange rates based on a specified base currency. In this code, we fetch the exchange rates based on the user-selected base currency and use it to perform currency conversion calculations.
 rk requests and user inputs, to provide a robust user experience.
 
 
 Code Explanation:
-
 currency_converter.py: This is the main Python script that contains the application logic and GUI implementation.
-Functionality:
 
+Functionality:
 Users can input the amount they want to convert, select the currency they want to convert from and to, and click the "Convert" button to get the converted amount.
 The application fetches the latest exchange rates from the exchangerate-api.com API using the requests library.
 Error handling is implemented to handle invalid input and API errors gracefully.
@@ -59,12 +51,11 @@ The GUI layout is organized using the grid manager, which arranges widgets in a 
 
 Usage:
 To use the Currency Converter application, follow these steps:
-
 Run the Python script currency_converter.py.
 Enter the amount you want to convert in the "Amount" field.
 Select the currency you want to convert from in the "From" dropdown menu.
 Select the currency you want to convert to in the "To" dropdown menu.
-Click the "Convert" or "shuffle" button.
+Click the "Convert" or “Shuffle” button.
 The converted amount will be displayed in the "Result" field.
 Future Enhancements:
 Here are some potential enhancements that could be made to the Currency Converter application:
@@ -74,8 +65,10 @@ Historical Rates: Add support for fetching historical exchange rates from the AP
 Custom API Integration: Allow users to input their API key for accessing currency exchange rates from other providers.
 Graphical Charts: Incorporate graphical charts to visualize currency trends and historical data.
 Unit Testing: Write unit tests to ensure the reliability and stability of the application.
+
 Contributing:
-Contributions to the Currency Converter application are welcome! Feel free to submit bug reports, feature requests, or pull requests on GitHub: [[link to GitHub repository]](https://github.com/kylejunior07/ATI-Currency-Conversion)
+Contributions to the Currency Converter application are welcome! Feel free to submit bug reports, feature requests, or pull requests on GitHub: [[link to GitHub repository]](https://github.com/kylejunior07/ATI-
+
 
 
 Author:
