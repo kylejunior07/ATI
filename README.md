@@ -67,7 +67,7 @@ Graphical Charts: Incorporate graphical charts to visualize currency trends and 
 Unit Testing: Write unit tests to ensure the reliability and stability of the application.
 
 Contributing:
-Contributions to the Currency Converter application are welcome! Feel free to submit bug reports, feature requests, or pull requests on GitHub: [[link to GitHub repository]](https://github.com/kylejunior07/ATI-
+Contributions to the Currency Converter application are welcome! Feel free to submit bug reports, feature requests, or pull requests on GitHub: [[[link to GitHub repository]](https://github.com/kylejunior07/ATI-](https://github.com/kylejunior07/ATI-Currency-Conversion)
 
 
 
