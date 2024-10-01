@@ -13,7 +13,7 @@ def convert_currency():
     if response.ok:
         # Extract rates from the response
         rates = response.json().get('rates', {})
-        # Get the conversion rate for the selected currency
+        # Gets the conversion rate for the selected currency
         rate = rates.get(to_currency.get(), 0)
         try:
             # This gets the amount entered by the user
